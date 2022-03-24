@@ -6,7 +6,7 @@ A program for young programmers wishing to get better or learn something new abo
 
 - [Filip Jakab](https://github.com/TheMaikXX)
 - [Albert Moravec](https://github.com/albertmoravec)
-- [Jakub Senk](MIA)
+- Jakub Senk(MIA)
 
 ## Second generation
 
