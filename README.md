@@ -15,3 +15,4 @@ A program for young programmers wishing to get better or learn something new abo
 - [Adam Pala](https://github.com/Eidamiino)
 - [Miroslav Precek](https://github.com/strawboycz)
 - [Adam Hanzlik](https://github.com/RagingRegr)
+- [Adam Kijonka](https://github.com/ADAMOOD)
