@@ -18,4 +18,3 @@
 ## Javascript
 - [Visual Studio Code](https://visualstudio.microsoft.com)
 - [Node Version Manager for Windows](https://github.com/coreybutler/nvm-windows)
-- 
