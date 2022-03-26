@@ -9,6 +9,7 @@
 - [TortoiseGit](https://tortoisegit.org/download/)
   - Requires Git for Windows
 - [ShareX](https://getsharex.com)
+- [Windows Terminal](https://github.com/microsoft/terminal/releases)
 
 ## C#
 - [Visual Studio](https://visualstudio.microsoft.com)
