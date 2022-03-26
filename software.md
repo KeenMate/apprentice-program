@@ -8,6 +8,7 @@
 - [Git for Windows](https://gitforwindows.org)
 - [TortoiseGit](https://tortoisegit.org/download/)
   - Requires Git for Windows
+- [ShareX](https://getsharex.com)
 
 ## C#
 - [Visual Studio](https://visualstudio.microsoft.com)
