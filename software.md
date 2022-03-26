@@ -5,6 +5,9 @@
 - [Sublime Text](https://www.sublimetext.com)
 - [Notepad++](https://notepad-plus-plus.org/downloads/)
 - [Total Commander](https://www.ghisler.com/download.htm)
+- [Git for Windows](https://gitforwindows.org)
+- [TortoiseGit](https://tortoisegit.org/download/)
+  - Requires Git for Windows
 
 ## C#
 - [Visual Studio](https://visualstudio.microsoft.com)
@@ -14,3 +17,5 @@
 
 ## Javascript
 - [Visual Studio Code](https://visualstudio.microsoft.com)
+- [Node Version Manager for Windows](https://github.com/coreybutler/nvm-windows)
+- 
