@@ -26,7 +26,7 @@ Tasks:
     - Third division is represented with \u2953
    - Progress bar ends with text x/50 steps, where x is the number of steps already finished
 
- - Print first type progress bar with random values
+- Print first type progress bar with random values
   - Steps are randomly determined with Random.Next, max value 25
   - Each step waits random amount of time, max. waiting time is 500ms
   - Everything else is the same as in the description of the First type progress bar
