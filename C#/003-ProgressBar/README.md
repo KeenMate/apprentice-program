@@ -4,7 +4,7 @@ Create a progress bar in console application that draws a progress bar with UTF8
 All tasks run after each other, when one finishes there are two new empty lines printed and next task starts.
 
 Tasks:
- - Print progress bar 40 characters long
+ - (First type) Print progress bar 40 characters long
    - Steps 40
    - Each step waits 200ms
    - Each step is represented with \u2593 character
@@ -15,11 +15,21 @@ Tasks:
      - ..
      - 15th step: XXXXXXXXXXXXXXX 15/40 steps
 
- - Print progress with fixed 50 characters
-   - 
+ - (Second type) Print progress with fixed 50 characters
+   - Steps 50
+   - At the begining all 50 characters are printed out with \u2591
+    - Each step rewrites respective character
+   - Each step is divided into 3 stages
+    - Each step division waits 100ms
+    - First division is represented with \u2951
+    - Second division is represented with \u2952
+    - Third division is represented with \u2953
+   - Progress bar ends with text x/50 steps, where x is the number of steps already finished
 
-
-
+- Print first type progress bar with random values
+  - Steps are randomly determined with Random.Next, max value 25
+  - Each step waits random amount of time, max. waiting time is 500ms
+  - Everything else is the same as in the description of the First type progress bar
 
 
 ## Help
