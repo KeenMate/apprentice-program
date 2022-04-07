@@ -1,4 +1,4 @@
-# Progess bar
+# Progress bar
 Create a progress bar in console application that draws a progress bar with UTF8 characters.
 
 All tasks run after each other, when one finishes there are two new empty lines printed and next task starts.
