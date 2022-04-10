@@ -31,6 +31,11 @@ Tasks:
   - Each step waits random amount of time, max. waiting time is 500ms
   - Everything else is the same as in the description of the First type progress bar
 
+### Bonus task
+- Print progress bars in different colors
+ - First third in red color
+ - Second third in yellow color
+ - Third third in green color
 
 ## Help
 
