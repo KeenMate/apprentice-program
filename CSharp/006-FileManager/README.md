@@ -4,6 +4,7 @@
 
 - Do NOT use traditional for/foreach cycles, use only LINQ
 - Use List<>, use classes, be good
+- There is no hidden catch in this description, no need to look for it, it's all just plain programming
 
 ## Description
 
@@ -15,9 +16,10 @@
 		- If directory does not exists print an error message "Directory with path {directoryPath} does not exist"
 - Ask user for a list of extensions
 	- Defaults to empty string
-	- Extensions are separated by ;
+	- Extensions are separated by ; and in format .[extension]
 		- If user enters .png; .jpeg trim the leading space infront of .jpeg
 			- Find out what string trim does and what are your options
+			- Remember there is something like LINQ Select, use it
 - If user enters no extensions
 	- Get all files
 	- Get all distinct extensions from all files
