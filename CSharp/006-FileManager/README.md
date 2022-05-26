@@ -38,10 +38,10 @@
 
 ### Phase 2
 - After the application is started user is presented with a menu and below that menu is a text "Choose your option: "
-	- Menu options are
-		- 1. File extension statistics
-		- 2. Create backup file
-		- 3. List backup files
+	- Numbered menu options are
+		- File extension statistics
+		- Create backup file
+		- List backup files
 	- When user enters an invalid menu option number, a message "Invalid menu option selected" is printed in red color for 750ms, screen is cleared and menu is printed again
 
 #### Create backup file
