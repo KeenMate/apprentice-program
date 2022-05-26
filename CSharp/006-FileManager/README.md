@@ -8,6 +8,8 @@
 
 ## Description
 
+### Phase 1
+
 - Ask user for a directory
 	- Default value c:\Windows\System32
 		- Try to use SpecialFolder enum to retrive the fullpath of System32 folder and do not use string value for directory path
@@ -33,6 +35,29 @@
 	- Get only files with these extensions
 	- Everything else is above
 	
+
+### Phase 2
+- After the application is started user is presented with a menu and below that menu is a text "Choose your option: "
+	- Menu options are
+		- 1. File extension statistics
+		- 2. Create backup file
+		- 3. List backup files
+	- When user enters an invalid menu option number, a message "Invalid menu option selected" is printed in red color for 750ms, screen is cleared and menu is printed again
+
+#### Create backup file
+- Ask user for a directory
+	-  Default value c:\temp
+- Check if the entered directory exists, if not create it
+- Take all files in root of the entered directory, put them in a zip file called backup.zip, create a folder with name [current time and date in format yyyy-mm-dd_hh-mm-ss] and save the zip file into this folder
+
+#### List backup files
+- Ask user for a directory
+	-  Default value c:\temp
+- Get all directories in the root of entered directory, print all folders that contains backup file in a numbered list and ask user "Which file you'd like to open: "
+	- If user enters existing number, open selected file with Process.Start("explorer", [full file path])
+		- After file is opened ask user for new number
+	- If user enters invalid number, display warning and ask again for correct number
+	- If user enters character 'b' he is returned to main menu
 
 ## Hints
 
