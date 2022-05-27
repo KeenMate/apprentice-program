@@ -25,10 +25,10 @@ Image resizer looks for all \*.jpg/jpeg files in a folder that user enters and c
 		- For example, ImageResizer3000.exe c:\\temp\\images --resize --width=600
 - Available command line arguments
 	- Directory path as first argument
-	- -r or --resize to start resizing process
-	- -w=x or --width=x that specifies desired width, where x is an integer number between 100-1200
-	- -t or --thumbs to create thumbs for each image
-	- -c or --clean to clean up all thumbs and resized images
+	- _-r_ or _--resize_ to start resizing process
+	- _-w=x_ or _--width=x_ that specifies desired width, where x is an integer number between 100-1200
+	- _-t_ or -_-thumbs_ to create thumbs for each image
+	- _-c_ or _--clean_ to clean up all thumbs and resized images
  
 ### Commands and processing
 
