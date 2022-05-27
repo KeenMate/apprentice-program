@@ -26,7 +26,7 @@ Image resizer looks for all \*.jpg/jpeg files in a folder that user enters and c
 - Available command line arguments
 	- Directory path as first argument
 	- -r or --resize to start resizing process
-	- -w=x or --width=x that specifies desired width, where x is the integer number 
+	- -w=x or --width=x that specifies desired width, where x is an integer number between 100-1200
 	- -t or --thumbs to create thumbs for each image
 	- -c or --clean to clean up all thumbs and resized images
  
