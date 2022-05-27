@@ -57,3 +57,8 @@ Image resizer looks for all \*.jpg/jpeg files in a folder that user enters and c
 	- Remove .\\thumbs folder
 	- Remove all files that are in format [name].[width].jpeg
 		- _width_ must be an string that can be converted to an integer number
+
+## Hints
+
+- Parse command line arguments and store the values into a class
+	- Decide what to do with this class first and then just call proper functions
