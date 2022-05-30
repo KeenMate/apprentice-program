@@ -64,7 +64,7 @@ Image resizer looks for all \*.jpg/jpeg files in a folder that user enters and c
 	- Progress bar displaying Processed data
 	- Total time in seconds
 	- Average time in miliseconds
-- Below the status bar display the processing message from Phase 1, for example "Image {original_file_name_without_extension} resized in {elapsedTime}ms"
+- Below the status bar display the processing messages from Phase 1, for example "Image {original_file_name_without_extension} resized in {elapsedTime}ms"
 	- After 25 rows keep rolling the log, meaning display only last 25 files and remove logs displayed before
 
 
