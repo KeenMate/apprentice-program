@@ -10,8 +10,7 @@ Image resizer looks for all \*.jpg/jpeg files in a folder that user enters and c
 - Use [SixLabors.ImageSharp](https://www.nuget.org/packages/SixLabors.ImageSharp/) package for image manipulation
 	- Use their guide to find out how it works
 
-## Description
-
+## Phase 1
 
 ### Command line specification 
 
@@ -57,6 +56,17 @@ Image resizer looks for all \*.jpg/jpeg files in a folder that user enters and c
 	- Remove .\\thumbs folder
 	- Remove all files that are in format [name].[width].jpeg
 		- _width_ must be an string that can be converted to an integer number
+
+## Phase 2
+
+- At the top of the screen display a status bar with these information
+	- Processed: xx/yy where xx is amount of files already resized and yy is amount of files to be resized
+	- Progress bar displaying Processed data
+	- Total time in seconds
+	- Average time in miliseconds
+- Below the status bar display the processing message from Phase 1, for example "Image {original_file_name_without_extension} resized in {elapsedTime}ms"
+	- After 25 rows keep rolling the log, meaning display only last 25 files and remove logs displayed before
+
 
 ## Hints
 
