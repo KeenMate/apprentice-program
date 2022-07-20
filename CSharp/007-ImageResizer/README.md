@@ -16,7 +16,7 @@ Image resizer looks for all \*.jpg/jpeg files in a folder that user enters and c
 
 - Command line arguments works like this
 	- All parameters starts with - or --
-		- For example command resize can be entered as -r or -resize, to resize images the application would be called ImageResizer3000.exe -r or ImageResizer3000.exe --resize
+		- For example command resize can be entered as -r or --resize, to resize images the application would be called ImageResizer3000.exe -r or ImageResizer3000.exe --resize
 	- First argument is directory path
 		- If user does not enter directory path, ask user to enter it
 		- For example, ImageResizer3000.exe c:\\temp\\images --resize
@@ -26,7 +26,7 @@ Image resizer looks for all \*.jpg/jpeg files in a folder that user enters and c
 	- Directory path as first argument
 	- _-r_ or _--resize_ to start resizing process
 	- _-w=x_ or _--width=x_ that specifies desired width, where x is an integer number between 100-1200
-	- _-t_ or -_-thumbs_ to create thumbs for each image
+	- _-t_ or -_--thumbs_ to create thumbs for each image
 	- _-c_ or _--clean_ to clean up all thumbs and resized images
  
 ### Commands and processing
