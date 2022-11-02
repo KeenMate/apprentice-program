@@ -1,8 +1,8 @@
-# Military Planner 3000
+# Battle Planner 3000
 
-Military planner helps armies with planning their resources when going to battle.
+Battle planner helps armies with planning their resources when going to battle.
 
-Military planner is divided to three parts
+Battle planner is divided to three parts
 - Definition of basic military resources
 - Definition of units
 - Battle planner
